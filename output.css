@@ -682,6 +682,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -771,20 +775,12 @@ video {
   max-height: 3rem;
 }
 
-.max-h-36 {
-  max-height: 9rem;
-}
-
-.max-h-64 {
-  max-height: 16rem;
-}
-
-.max-h-32 {
-  max-height: 8rem;
-}
-
 .max-h-24 {
   max-height: 6rem;
+}
+
+.max-h-36 {
+  max-height: 9rem;
 }
 
 .w-10 {
@@ -888,6 +884,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-x-2 {
