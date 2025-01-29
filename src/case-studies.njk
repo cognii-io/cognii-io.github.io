@@ -13,162 +13,38 @@ title: Cognii - The Neurotesting Consultants
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto mt-8 mb-16 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
         <p class="my-4 text-base/7 text-gray-600">Curious about how applying neurotech and neurotesting leads to actionable, measurable insights with real commercial impact? Explore our case studies from partnerships with leading brands like 
-        <a class="text-pink-500 font-semibold" href="#spotify">Spotify</a>, 
-        <a class="text-pink-500 font-semibold" href="#ikea">IKEA</a>, 
-        <a class="text-pink-500 font-semibold" href="#google">Google</a>, 
-        <a class="text-pink-500 font-semibold" href="#vodafone">Vodafone</a>, 
-        <a class="text-pink-500 font-semibold" href="#meta">Meta</a>, 
-        <a class="text-pink-500 font-semibold" href="#visa">VISA</a>, and
-        <a class="text-pink-500 font-semibold" href="#tesco">TESCO</a>.
+        <a class="text-pink-500 font-semibold" href="/case-studies/spotify/">Spotify</a>, 
+        <a class="text-pink-500 font-semibold" href="/case-studies/ikea/">IKEA</a>, 
+        <a class="text-pink-500 font-semibold" href="/case-studies/google/">Google</a>, 
+        <a class="text-pink-500 font-semibold" href="/case-studies/vodafone/">Vodafone</a>, 
+        <a class="text-pink-500 font-semibold" href="/case-studies/meta/">Meta</a>, 
+        <a class="text-pink-500 font-semibold" href="/case-studies/visa/">VISA</a>, and
+        <a class="text-pink-500 font-semibold" href="/case-studies/tesco/">TESCO</a>.
         </p>
-      </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16 mt-16">
+          {% for case in collections.caseStudies %}
+            <div>
+              <div class="rounded-lg p-6 h-full border-2 border-pink-500 relative">
+                <div class="absolute top-0 -translate-y-1/2 left-1/2 transform -translate-x-1/2 w-2/3 rounded-lg p-2 border-2 border-pink-500 bg-white flex items-center justify-center">
+                  <img src="/img/{{ case.fileSlug }}.svg" alt="{{ case.data.client }}" class="w-auto h-10"/>
+                </div>
+                
+                <h4 class="font-semibold text-lg pt-6">{{ case.data.title }}</h4>
+                <p class="text-gray-600 pb-4">{{ case.data.lead }}</p>
+                <p class="text-pink-500">
+                  <a href="/case-studies/{{ case.fileSlug }}/">
+                    Read case study <span aria-hidden="true">→</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>      
     </div>
 
-    <!-- Case studies -->
-    <!-- Spotify case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="spotify" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/spotify.svg" alt="Spotiy neurotesting case" />
-          </figure>
-          <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: Spotify — Beat of a billion</h2>
-        
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">When Spotify was planning to launch their streaming service in India, a market of over a billion potential customers, they knew they needed something extraordinary to make an impact. The challenge was significant: creating a hit music video in a market where only 0.025% of new music videos achieve hit status. To tackle this challenge, they took an innovative approach by partnering with a neuroscience research company.</p>
-          <p class="mt-4 text-base/7 text-gray-600">The strategy involved using advanced brain monitoring technology to measure emotional responses to music. Test participants listened to a carefully curated playlist featuring India's top hits across various languages and genres. The researchers tracked two key metrics: emotional arousal (intensity) and motivation (valence). This data helped identify specific musical elements, rhythms, and themes that consistently generated the strongest positive responses.</p>
-          <div class="aspect-video w-full my-6">
-            <iframe
-              class="w-full h-full"
-              src="https://www.youtube.com/embed/_fgHmrC1ANg?si=nEsqJG7EOwzBCNBw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
-          </div>
-          <p class="mt-4 text-base/7 text-gray-600">These scientific insights were then shared with music creators, who used the data to compose "the beat of a billion" — a tune crafted to resonate with the Indian audience. The resulting ad campaign proved highly successful, significantly boosting Spotify's market penetration in India. This project demonstrated how combining neuroscience with creative processes can enhance product launches and marketing strategies, offering deeper insights into customer preferences than traditional market research methods.</p>
-      
-        </div>
-      </div>
-    </div>
-
-    <!-- IKEA case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="ikea" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/ikea.svg" alt="IKEA neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: IKEA — Pre-launch Testing</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">When IKEA decided to enter the renewable energy market, they faced a critical challenge: would customers accept and understand this expansion beyond their traditional home furnishing offerings? To answer this question, IKEA partnered with us to implement an innovative research approach called NeuroPrototyping.</p>
-          <p class="mt-4 text-base/7 text-gray-600">NeuroPrototyping, a methodology developed through collaboration with Lowe's Home Improvement, combines eye-tracking and brain monitoring to measure subconscious responses to new products and services. This approach was particularly relevant for understanding how customers would respond to environmental products, as green decisions represent what researchers call "intertemporal choices" – decisions that require trading current costs for future benefits.</p>
-          <p class="mt-4 text-base/7 text-gray-600">The research team conducted a comprehensive study across two distinct markets: the Netherlands and Poland. With over 30 participants in each country (average age 37.1 years), the study revealed fascinating insights into how different markets perceive renewable energy offerings. While Dutch consumers generally aligned with global trends in renewable energy interest, Polish consumers showed notably lower engagement levels.</p>
-          <p class="mt-4 text-base/7 text-gray-600">The study's findings highlighted several crucial factors for market entry. Each country demonstrated clear preferences, but interestingly, there was often a disconnect between conscious and subconscious responses to the concepts presented. Product titles proved to be particularly influential in shaping customer perceptions, and visual scanning patterns provided valuable insights into the decision-making process.</p>
-          <p class="mt-4 text-base/7"><a class="text-pink-500 font-semibold inline-flex gap-2" href="https://hbr.org/2019/02/neuroscience-is-going-to-change-how-businesses-understand-their-customers" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-            </svg>
-            Harvard Business Review: Neuroscience Is Going to Change How Businesses Understand Their Customers</a>
-          </p>
-          <p class="mt-4 text-base/7 text-gray-600">Perhaps most significantly, the research revealed substantial variations between the Dutch and Polish markets in how they received different concepts. This finding led to a key strategic insight: IKEA would need to develop market-specific approaches for both their product offerings and communication strategies. The success of their renewable energy products would depend on carefully balancing rational arguments with emotional appeals, tailored to each market's unique characteristics.</p>
-          <p class="mt-4 text-base/7 text-gray-600">Armed with these insights, IKEA could move forward with confidence, knowing they had a clear understanding of how to position their renewable energy offerings in each market. The research not only confirmed market potential but also provided a roadmap for how to communicate effectively with customers in different regions, ensuring their expansion into the energy sector would resonate with their target audience.</p>
-        </div>
-      </div>      
-    </div>
-    
-    <!-- Google case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="google" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/google.svg" alt="Google neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: Google — Two to Tango</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">Case stuff</p>
-        </div>
-      </div>      
-    </div>
-    
-    <!-- Vodafone case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="vodafone" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/vodafone.svg" alt="Vodafone neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: Vodafone — Streaming Horrors</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">In partnership with leading telecommunications companies, we conducted a series of groundbreaking studies to investigate how streaming delays affect user experience. Our research revealed that the impact of mobile delays on users is far more severe than previously understood.</p>
-          <p class="mt-4 text-base/7 text-gray-600">In our initial Scandinavian study, we monitored participants using eye-tracking, EEG brain monitoring, and heart rate measurements while they experienced various levels of website loading delays. The findings were remarkable: after just 2-3 seconds of delay, users showed a 44% increase in heart rate, alongside significant spikes in cognitive load and decreased motivation. Intriguingly, while participants claimed they would tolerate up to 5 seconds of delay, their physiological responses showed stress reactions much earlier.</p>
-          <p class="mt-4 text-base/7 text-gray-600">The impact on brand perception proved equally significant. When users experienced delays, they not only developed negative associations with the brand they believed responsible but also showed increased positive emotions toward competitor brands. This "double-whammy" effect demonstrated how technical performance issues could directly impact brand value.</p>
-          <figure>
-            <img class="mx-auto h-auto w-auto object-contain" src="/img/ericsson-horror.png" alt="Courtesy of Ericsson Consumer Labs Report" />
-          </figure>
-          <p class="mt-4 text-base/7 text-gray-600">Our follow-up study exploring cultural differences between German and Indonesian users revealed fascinating variations in delay tolerance. While German users showed stress responses after just 1 second of delay, Indonesian users remained tolerant up to 9 seconds. Despite these timing differences, the negative emotional responses remained consistent across cultures. The study also found that both service providers and content platforms suffered brand damage from poor performance.</p>
-          <p class="mt-4 text-base/7 text-gray-600">Our most recent research focused on 5G delays in virtual reality gaming, comparing experiences between traditional PC and VR platforms. The study of 64 participants, including both professional and casual gamers, showed that VR gaming with delays created more than twice the stress levels of delayed PC gaming. Players experienced significant performance issues, with some reporting nausea that forced them to stop playing entirely. Memory retention also suffered, with delayed VR experiences showing a marked negative impact on players' ability to recall information.</p>
-          <p class="mt-4 text-base/7 text-gray-600">These findings collectively demonstrate that mobile delays are not merely an inconvenience but a significant factor in user experience, brand perception, and cognitive performance. As digital experiences become increasingly immersive, the importance of minimizing delays becomes even more critical for maintaining positive user engagement and brand relationships.</p>
-        </div>
-      </div>      
-    </div>
-    
-    <!-- Meta case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="meta" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/meta.svg" alt="Meta neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: Meta — Virtual Relationships</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">Case stuff</p>
-        </div>
-      </div>      
-    </div>
-    
-    <!-- VISA case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="visa" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/visa.svg" alt="VISA neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: VISA — Zlatan Sound</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">Case stuff</p>
-        </div>
-      </div>      
-    </div>
-        
-    <!-- TESCO case -->
-    <hr class="mx-auto max-w-2xl lg:max-w-4xl">
-    <div class="py-16">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div id="tesco" class="mx-auto max-w-2xl lg:max-w-4xl text-center">
-          <figure>
-            <img class="mx-auto max-w-md h-auto max-h-24 w-full object-contain" src="/img/tesco.svg" alt="TESCO neurotesting case" />
-          </figure>
-           <h2 class="mt-6 text-pretty text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl lg:text-balance">Use case: TESCO — Setting the Mood</h2>
-        </div>
-        <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-          <p class="mt-4 text-base/7 text-gray-600">Case stuff</p>
-        </div>
-      </div>      
-    </div>
 
     <!-- CTA -->
     <div class="my-16 flex items-center justify-center gap-x-6 text-center px-6">
