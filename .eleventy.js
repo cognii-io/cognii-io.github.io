@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/script.js");
   
   eleventyConfig.addCollection("caseStudies", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/case-studies/*.md");
+    return collectionApi.getFilteredByGlob("src/cases/*.md");
   });
   
   return {
