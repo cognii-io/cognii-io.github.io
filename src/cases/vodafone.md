@@ -1,7 +1,8 @@
 ---
 client: Vodafone
-title: Streaming Horrors
+headline: Streaming Horrors
 lead: Partnering with Vodafone and Ericsson, we uncovered the effect of streaming delays — turns out it's about the same as watching a horror movie!
+title:
 description: 
 tags: 
 ---

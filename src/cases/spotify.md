@@ -1,7 +1,8 @@
 ---
 client: Spotify
-title: Beat of a billion
+headline: Beat of a billion
 lead: Used neurotech to measure people's emotional responses to music. Applied machine learning and AI to create the "Beat of a Billion" for Spotify's launch in India.
+title:
 description: 
 tags: 
 ---
