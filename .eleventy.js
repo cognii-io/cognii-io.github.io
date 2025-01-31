@@ -9,7 +9,8 @@ module.exports = function(eleventyConfig) {
   });
   
   eleventyConfig.addCollection("solutions", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("src/solutions/*.md");
+    return collectionApi.getFilteredByGlob("src/solutions/*.md")
+    .sort((a, b) => (a.data.order || 0) - (b.data.order || 0));
   });
 
   return {
