@@ -133,6 +133,20 @@ description:
         <p class="my-4 text-base/7 text-gray-600">Our work primarily focuses on four core domains within neurotesting, with additional bespoke solutions available based on specific needs:</p>
         <h3 class="mt-12 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-balance text-center">How we can help you apply neurotech</h3>
         <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16 mt-10">
+
+          {% for case in collections.solutions %}
+            <div class="relative">
+              <dt class="flex items-center gap-x-2 text-base/7 font-semibold text-gray-900">
+                <svg class="size-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="{{ case.data.icon }}" />
+                </svg>
+                <span>{{ case.data.name }}</span>
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 mb-2">{{ case.data.lead }}</dd>
+              <a href="/solutions/#{{ case.data.name }}" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            </div>
+          {% endfor %}
+
           <div class="relative">
             <dt class="flex items-center gap-x-2 text-base/7 font-semibold text-gray-900">
               <svg class="size-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
@@ -247,7 +261,7 @@ description:
              
                       <h4 class="font-semibold text-lg pt-16">Eric Johnsen, Google</h4>
                       <p class="">Head of Business Development</p>
-                      <p class="text-gray-600 text-sm py-4 italic">After testing partner applications built in our various AR and VR platforms, Thomas and the team at Cognii provided highly quantifiable and unique insight into why and how the various hardware in our portfolio was appropriate in different use case scenarios.</p>
+                      <p class="text-gray-600 text-sm py-4 italic">After testing partner applications built in our various AR and VR platforms, Thomas and the team at cognii provided highly quantifiable and unique insight into why and how the various hardware in our portfolio was appropriate in different use case scenarios.</p>
                       <p class="text-gray-600 text-sm pb-2 italic">This insight is critical to us given how data-driven we are in our decision-making process.</p>
                     </div>
                 </div>
@@ -262,7 +276,7 @@ description:
                     <h4 class="font-semibold text-lg pt-16">Håkan Nordkvist, IKEA</h4>
                     <p class="">Head of Innovation Sustainability</p>
                     <p class="text-gray-600 text-sm py-4 italic">Before entering a strategic new area for our company, we tested customer responses in multiple markets.</p>
-                    <p class="text-gray-600 text-sm pb-2 italic">Here, using consumer neuroscience with Cognii provided crucial customer insights to drive our decisions.</p>
+                    <p class="text-gray-600 text-sm pb-2 italic">Here, using consumer neuroscience with cognii provided crucial customer insights to drive our decisions.</p>
                   </div>
               </div>
 
@@ -276,7 +290,7 @@ description:
                     <h4 class="font-semibold text-lg pt-16">Wayne Huang, Twitter</h4>
                     <p class="">Research Manager</p>
                     <p class="text-gray-600 text-sm py-4 italic">Businesses often struggle to understand what their customers are really thinking. Self-reports are filled with pitfalls to gain such insights.</p>
-                    <p class="text-gray-600 text-sm pb-2 italic">When working with Cognii to study consumer responses to ads on Twitter, we have gained an extra new layer of insights both for internal use and for our users to show the power of our platform.</p>
+                    <p class="text-gray-600 text-sm pb-2 italic">When working with cognii to study consumer responses to ads on Twitter, we have gained an extra new layer of insights both for internal use and for our users to show the power of our platform.</p>
                   </div>
               </div>
         </div>

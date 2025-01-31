@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
     return collectionApi.getFilteredByGlob("src/cases/*.md");
   });
   
+  eleventyConfig.addCollection("solutions", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/solutions/*.md");
+  });
+
   return {
       dir: {
           input: "src",
