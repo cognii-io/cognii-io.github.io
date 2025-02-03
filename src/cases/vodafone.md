@@ -4,7 +4,7 @@ headline: Streaming Horrors
 lead: Partnering with Vodafone and Ericsson, we uncovered the effect of streaming delays — turns out it's about the same as watching a horror movie!
 title:
 description: 
-tags: 
+tags: Digital Experience
 ---
 
 In partnership with leading telecommunications companies, we conducted a series of groundbreaking studies to investigate how streaming delays affect user experience. Our research revealed that the impact of mobile delays on users is far more severe than previously understood.

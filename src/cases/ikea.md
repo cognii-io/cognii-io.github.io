@@ -4,7 +4,7 @@ headline: Pre-launch Testing
 lead: Through neurotesting, IKEA tested and gained insights into a completely new and groundbreaking renewable energy service, leading to a very successful launch.
 title: 
 description: A case study on IKEA's entry into the renewable energy market using NeuroPrototyping
-tags: 
+tags: Innovation
 ---
 
 When IKEA decided to enter the renewable energy market, they faced a critical challenge: would customers accept and understand this expansion beyond their traditional home furnishing offerings? To answer this question, IKEA partnered with us to implement an innovative research approach called NeuroPrototyping.

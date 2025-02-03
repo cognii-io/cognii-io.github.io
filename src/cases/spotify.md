@@ -4,7 +4,7 @@ headline: Beat of a Billion
 lead: Used neurotech to measure people's emotional responses to music. Applied machine learning and AI to create the "Beat of a Billion" for Spotify's launch in India.
 title:
 description: 
-tags: 
+tags: Bespoke / Task Force
 ---
 
 When Spotify was planning to launch their streaming service in India, a market of over a billion potential customers, they knew they needed something extraordinary to make an impact. The challenge was significant: creating a hit music video in a market where only 0.025% of new music videos achieve hit status. To tackle this challenge, they took an innovative approach by partnering with a neuroscience research company.

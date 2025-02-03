@@ -2,14 +2,39 @@
 layout: page.njk
 pre: Applying neuroscience across domains
 headline: Solution for Neurotesting
-lead: Whatever your challenge. We've got you covered.
+lead: Whatever your challenge, we've got you covered.
 title: 
 description: 
 ---
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-        <h3 class="mt-12 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-balance">Leading Transformation</h3>
+        <p>Noget kort tekst og så links til hver af de 8 punkter med?</p>
+        <dl>
+
+          {% for case in collections.solutions %}
+              <dt class="flex items-center gap-x-4" id="{{ case.fileSlug }}">
+                <svg class="size-8 text-pink-600 mt-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="{{ case.data.icon }}" />
+                </svg>
+                <h2>{{ case.data.name }}</h2>
+              </dt>
+              <dd class="mt-2 text-base/7 text-gray-600 mb-12">
+              {{ case.templateContent | safe }}
+              {% for otherCase in collections.cases %}
+                {% if otherCase.data.tags == case.data.name %}
+                  <p>Case: 
+                    <a class="text-pink-500" href="/cases/{{ otherCase.fileSlug }}/">{{ otherCase.data.client }} - {{ otherCase.data.headline}}</a>
+                  </p>
+                {% endif %}
+              {% endfor %}
+              </dd>
+          {% endfor %}
+
+        </dl>
+
+
+        <h2 class="mt-12 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-balance">Leading Transformation</h2>
         <p class="mt-4 text-base/7 text-gray-600">The cognii approach centers around the process described in the book <span class="font-semibold">Leading Transformation - How to Take Charge of Your Company's Future (Harvard Business Review Press, 2018)</span> written by Thomas together with Nathan Furr and Kyle Nel.</p>
         <figure class="mt-4 pl-8 border-l-4 border-l-pink-500">
           <blockquote class="font-semibold">"Many leaders struggle to lead disruptive change. Leading Transformation provides new tools to overcome the hurdles to success."</blockquote>
