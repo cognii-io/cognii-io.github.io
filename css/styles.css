@@ -682,16 +682,16 @@ video {
   margin-bottom: 1.5rem;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-16 {
   margin-bottom: 4rem;
 }
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-10 {
@@ -1220,6 +1220,11 @@ video {
 .text-sm\/6 {
   font-size: 0.875rem;
   line-height: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
