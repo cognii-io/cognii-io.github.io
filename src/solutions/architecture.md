@@ -6,3 +6,5 @@ lead: Use neurotesting to inform and optimize design and architectural choices, 
 ---
 
 Use neurotesting to inform and optimize design and architectural choices, creating spaces that resonate with users on a subconscious level.
+
+test af living spaces, work spaces, buildings, stadiums

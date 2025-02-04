@@ -6,3 +6,5 @@ lead: Transform management practices by integrating neuroscience to improve lead
 ---
 
 Transform management practices by integrating neuroscience to improve leadership effectiveness and team dynamics, fostering a more engaged workplace.
+
+company stress mapping, response to C-suite talk, change management testing, intervention assessment

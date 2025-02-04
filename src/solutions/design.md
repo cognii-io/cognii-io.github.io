@@ -6,3 +6,5 @@ lead: Leverage neuroscience to evaluate how design elements — such as layout, 
 ---
 
 Leverage neuroscience to evaluate how design elements — such as layout, color schemes, and interaction patterns — affect user engagement, emotional response, and overall experience, ensuring designs align with user needs and preferences.
+
+design responses (comparable to product testing, focus on design)

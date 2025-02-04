@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 pre: Applying neuroscience across domains
-headline: Solution for Neurotesting
+headline: Solutions for Neurotesting
 lead: Whatever your challenge, we've got you covered.
 title: 
 description: 
@@ -9,8 +9,9 @@ description:
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
-        <p>Noget kort tekst og så links til hver af de 8 punkter med?</p>
-        <dl>
+        <p>While most businesses guess what people want, measuring actual brain responses enables us to see the truth. People can't explain why they make certain choices — their brain activity reveals what they really respond to. This lets us cut through assumptions and create products, spaces, and experiences that genuinely work for people on a subconscious level.</p>
+        <p>Together, we can apply neuroscience and create direct and meaningful impact for your business. Jump directly to <a class="text-pink-500" href="#innovation">Innovation</a>, <a class="text-pink-500" href="#leadership-people-culture">Leadership / People & Culture</a>, <a class="text-pink-500" href="#product">Product</a>, <a class="text-pink-500" href="#retail">Retail</a>, <a class="text-pink-500" href="#design">Design</a>, <a class="text-pink-500" href="#digital-experience">Digital Experience</a>, <a class="text-pink-500" href="#architecture">Architecture</a>, or <a class="text-pink-500" href="#bespoke-task-force">Bespoke / Task Force</a> to see how you can benefit from applying neuroscience in each domain.</p>
+        <dl class="mt-6">
 
           {% for case in collections.solutions %}
               <dt class="flex items-center gap-x-4" id="{{ case.fileSlug }}">
@@ -19,7 +20,7 @@ description:
                 </svg>
                 <h2>{{ case.data.name }}</h2>
               </dt>
-              <dd class="mt-2 text-base/7 text-gray-600 mb-12">
+              <dd class="mt-2 text-base/7 text-gray-600 mb-8">
               {{ case.templateContent | safe }}
               {% for otherCase in collections.cases %}
                 {% if otherCase.data.tags == case.data.name %}
@@ -34,7 +35,7 @@ description:
         </dl>
 
 
-        <h2 class="mt-12 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-balance">Leading Transformation</h2>
+        <h3 class="mt-12 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl lg:text-balance">Leading Transformation</h3>
         <p class="mt-4 text-base/7 text-gray-600">The cognii approach centers around the process described in the book <span class="font-semibold">Leading Transformation - How to Take Charge of Your Company's Future (Harvard Business Review Press, 2018)</span> written by Thomas together with Nathan Furr and Kyle Nel.</p>
         <figure class="mt-4 pl-8 border-l-4 border-l-pink-500">
           <blockquote class="font-semibold">"Many leaders struggle to lead disruptive change. Leading Transformation provides new tools to overcome the hurdles to success."</blockquote>
@@ -70,16 +71,9 @@ description:
           </dt>
           <dd>
             <p class="mt-4 text-base/7 text-gray-600">Doing something new always creates fear and resistance. To overcome this you need data-driven indicators that you are on course. Unfortunately, most available measurement tools like focus groups and customer feedback are notoriously unreliable indicators when designing new-to-the-world products.</p>
-            <figure class="mt-4 pl-8 border-l-4 border-l-pink-500">
-              <blockquote class="font-semibold">"I've never seen innovation come out of a focus group."</blockquote>
-              <figcaption class="mt-2 text-base/7 text-gray-600">Gianfranco Zaccai, developer of Reebok Pump and Swiffer</figcaption>
-            </figure>   
             <p class="mt-4 text-base/7 text-gray-600">We help identify your end goals, then work backwards to define an articact trail, and ultimately define future key performance indicators (fKPIs), creating the experimental design needed to reliably generate defensible meassures of your direction.</p>
-            <p class="mt-4 text-base/7 text-gray-600">The best tool to navigate the unknown is applying neuroscience. Specifically, using neurotesting to validate or disprove hypotheses and track if you're actually making progress. Measured on the unconscious reactions directly in the consumer's brain, effectively eliminating "false positives" from biased and unreliable statements.</p>
           </dd>
         </dl>
-        <p class="mt-8 text-base/7 text-gray-600">Whether you would like our assistance in Leading Transformation from A-Z, neurotest a hypthesis, or simplyhave a question, feel free to <a href="https://wfl1gzbngbj.typeform.com/to/en5hYAKS" target="_blank" class="text-pink-600">reach out to us</a>.</p>
-        <p class="mt-4 text-base/7 text-gray-600">And if you have gotten curious about what the end product could look like, you can have a look at one of our recent use cases for reMarkable <a href="/case-studies/" class="text-pink-600">right here</a>.</p>
       </div>
     </div>
   </div>
