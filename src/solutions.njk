@@ -10,7 +10,14 @@ description:
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto mt-8 max-w-2xl sm:mt-10 lg:mt-12 lg:max-w-4xl">
         <p>While most businesses guess what people want, measuring actual brain responses enables us to see the truth. People can't explain why they make certain choices — their brain activity reveals what they really respond to. This lets us cut through assumptions and create products, spaces, and experiences that genuinely work for people on a subconscious level.</p>
-        <p>Together, we can apply neuroscience and create direct and meaningful impact for your business. Jump directly to <a class="text-pink-500" href="#innovation">Innovation</a>, <a class="text-pink-500" href="#leadership-people-culture">Leadership / People & Culture</a>, <a class="text-pink-500" href="#product">Product</a>, <a class="text-pink-500" href="#retail">Retail</a>, <a class="text-pink-500" href="#design">Design</a>, <a class="text-pink-500" href="#digital-experience">Digital Experience</a>, <a class="text-pink-500" href="#architecture">Architecture</a>, or <a class="text-pink-500" href="#bespoke-task-force">Bespoke / Task Force</a> to see how you can benefit from applying neuroscience in each domain.</p>
+        <p>Together, we can apply neuroscience and create direct and meaningful impact for your business. Jump directly to each domain solution to learn how you can benefit from applying neuroscience:</p>
+
+        <ul class="mt-6">
+          {% for case in collections.solutions %}
+            <li>- <a class="text-pink-500" href="#{{ case.data.name }}}">{{ case.data.name }}</a></li>
+          {% endfor %}
+        </ul>
+                  
         <dl class="mt-6">
 
           {% for case in collections.solutions %}
