@@ -9,14 +9,12 @@ We use neuroprototyping to test and refine new ideas and prototypes, integrating
 
 <h3 class="mt-8 flex items-center gap-x-2 text-xl font-semibold text-gray-900">Leading Transformation</h3>
 
-The cognii approach to facilitating innovation centers around the process described in the book **Leading Transformation - How to Take Charge of Your Company's Future (Harvard Business Review Press, 2018)** written by Thomas together with Nathan Furr and Kyle Nel.
+The Cognii approach, featured in *Leading Transformation – How to Take Charge of Your Company's Future* (HBR Press, 2018), equips leaders with actionable tools to drive disruptive change.
 
 <figure class="mt-4 pl-8 border-l-4 border-l-pink-500">
     <blockquote class="font-semibold">"Many leaders struggle to lead disruptive change. Leading Transformation provides new tools to overcome the hurdles to success."</blockquote>
     <figcaption class="mt-2 text-base/7 text-gray-600">Clayton M. Christensen, godfather of Disruptive Innovation and Jobs to Be Done</figcaption>
 </figure>
-
-This process tackles some of the most difficult human limitations to transformation in order to help your company take charge of the future. It has 3 key steps, all of which are based on behavioral science:
 
 <div class="mt-8 flex items-center gap-x-2 text-base/7 font-semibold text-gray-900">
     <svg class="size-6 text-pink-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -25,10 +23,7 @@ This process tackles some of the most difficult human limitations to transformat
     <h4>Envisioning the Future</h4>
 </div>
           
-
-Stories are one of humankind's oldest and most powerful tools. We use it to combat narrow thinking and the inate human habit of focussing on only incremental improvements to the status quo.
-
-Latest neuroscience research reveals that stories release a rush of neurochemicals that can literally sync people's brain and motivate action. We use this to create a strategic narrative and radically reenvision what is possible using speculative fiction and visual mediums (e.g. comic book).
+Break free from incremental thinking with a narrative-driven method to explore bold possibilities. We help your team craft strategic stories around your product or service, following a narrative arc that motivates action. Formats like cartoons, rap battles, and speculative fiction immerse teams in vivid future scenarios that spark alignment and excitement.
 
 <div class="mt-8 flex items-center gap-x-2 text-base/7 font-semibold text-gray-900">
     <svg class="size-6 text-pink-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -37,9 +32,7 @@ Latest neuroscience research reveals that stories release a rush of neurochemica
     <h4>Breaking Bottlenecks</h4>
 </div>
 
-Developing the story may be the easier part. Navigating the rat's nest of motivations, politics, and routines in any big company may be the hardest part.
-
-Applying tools from behavioral science, we help you overcome these challenges by identifying and breaking key decision bottlenecks. It all starts with the question: *What kind of organization do you work in?* and ends with the creation of a *decision bottleneck map* complete with key transformation agents we call *bottleneck breakers*.
+Identify and overcome the barriers holding back your innovation. Using behavioral design, we map decision bottlenecks, evaluate team dynamics, and align processes, incentives, and culture to match your ambitions. Our tools boost creativity and decision-making to clear the path for success.
 
 <div class="mt-8 flex items-center gap-x-2 text-base/7 font-semibold text-gray-900">
     <svg class="size-6 text-pink-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -48,6 +41,4 @@ Applying tools from behavioral science, we help you overcome these challenges by
     <h4>Navigating the Unknown</h4>
 </div>
 
-Doing something new always creates fear and resistance. To overcome this you need data-driven indicators that you are on course. Unfortunately, most available measurement tools like focus groups and customer feedback are notoriously unreliable indicators when designing new-to-the-world products.
-
-We help identify your end goals, then work backwards to define an articact trail, and ultimately define future key performance indicators (fKPIs), creating the experimental design needed to reliably generate defensible meassures of your direction.
+Reduce risk and embrace uncertainty with our proven NeuroPrototyping method. By integrating neurometrics, biometrics, and behavioral insights, we deliver data-driven experimental designs that validate your direction. Trusted by Fortune 500 companies, NGOs, and hospitals, this approach keeps you on course for breakthrough innovation.
