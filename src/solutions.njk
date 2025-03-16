@@ -14,7 +14,7 @@ description:
 
         <ul class="mt-6">
           {% for case in collections.solutions %}
-            <li>- <a class="text-pink-500" href="#{{ case.data.name }}}">{{ case.data.name }}</a></li>
+            <li>- <a class="text-pink-500" href="#{{ case.fileSlug }}">{{ case.data.name }}</a></li>
           {% endfor %}
         </ul>
                   
